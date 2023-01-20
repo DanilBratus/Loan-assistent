@@ -1,0 +1,134 @@
+
+
+body {
+   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+   line-height: 1;
+   color: #703675;
+   background: #f8e1fa;
+}
+
+h1 {
+   margin-bottom: 20px;
+   text-transform: uppercase;
+}
+
+a {
+   text-decoration: none;
+   color: #524f4e;
+}
+a:link {
+  color: #497DDD;
+  border-bottom: 1px dashed;
+}
+a:visited {
+  color: #EF7D55;
+}
+a:hover {
+  color: #154088;
+  border-bottom: .07em solid;
+}
+a:active {
+  color: #497DDD;
+  border-bottom: 1px dashed;
+}
+href {
+    color: #2EE59D;
+}
+
+label {
+   margin-bottom: 5px;
+   color: #2EE59D;
+   text-transform: uppercase;
+   font-size: 12px;
+}
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+
+  background: transparent;
+  outline: none;
+  color: #00e600;
+
+  border: 2px solid #7BA7AB;
+  border-radius: 15px;
+  border-bottom: none;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+input:hover {
+  background: #b3aca7;
+  color: #524f4e;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+
+  background: transparent;
+  outline: none;
+
+  color: #726659;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875em;
+
+  border: solid 1px #b3aca7;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+button {
+  text-decoration: none;
+  display: inline-block;
+  width: 240px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: #d790de;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
+button:hover {
+  background: #2EE59D;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+  color: white;
+  transform: translateY(-7px);
+}
